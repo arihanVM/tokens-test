@@ -19,6 +19,6 @@ jobs:
         run: |
           git config --local user.email "arihan.awasthi@viamagus.com"
           git config --local user.name "arihanVM"
-          git add tokens.json
+          git add design-tokens.json
           git commit -m "${{ github.event.client_payload.commitMessage }}"
           git push
